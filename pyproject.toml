@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ising-monte-carlo"
+version = "0.1.0"
+description = "um trabalho em tcc"
+authors = ["iansk8 <ianlopes2069@gmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
